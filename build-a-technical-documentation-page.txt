@@ -1,0 +1,94 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Book Genres</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <nav id="navbar">
+        <header>Book Genres</header>
+        <ul>
+          <li><a href="#Classics" class="nav-link">Classics</a></li>
+          <li><a href="#Thrillers" class="nav-link">Thrillers</a></li>
+          <li><a href="#Romance" class="nav-link">Romance</a></li>
+          <li><a href="#Fantasy" class="nav-link">Fantasy</a></li>
+          <li><a href="#Memoir" class="nav-link">Memoir</a></li>
+      </nav>
+      <main id="main-doc">
+        <section class="main-section" id="Classics">
+          <header id="Classics">Classics</header>
+          <p>Classic literature endures because it captures timeless human struggles. Whether it’s love, power, or morality, these stories stay relevant across generations. From Dickens to Hemingway, each book offers a glimpse into history and society.</p>
+          <p>Beyond their rich storytelling, classics challenge readers to think deeply. They reveal universal truths through unforgettable characters and poetic prose. No matter how many years pass, their impact never fades.</p>
+          <code>f1</code>
+          <li>The Great Gatsby</li>
+          <li>1984</li>
+        </section>
+        <br>
+        <br>
+        <section class="main-section" id="Thrillers">
+          <header id="Thrillers">Thrillers</header>
+          <p>Thrillers thrive on tension, mystery, and unexpected twists. They pull readers into high-stakes situations, keeping them on edge with every turn. From psychological suspense to crime investigations, they demand attention.</p>
+          <p>More than just fast-paced action, thrillers tap into fear and uncertainty. They explore trust, deception, and the darker side of human nature. The best ones leave you questioning everything—even yourself.</p>
+          <code>f2</code>
+          <li>The House on the Hill</li>
+          <li>The Paris Apartment</li>
+        </section>
+        <br>
+        <br>
+        <section class="main-section" id="Romance">
+          <header id="Romance">Romance</header>
+          <p>Romance novels celebrate the beauty and complexity of love. Whether through slow-burn tension or sweeping passion, they capture relationships in all their forms. Every story reminds us why love matters.</p>
+          <p>More than just happy endings, romance explores heartache, growth, and self-discovery. Love stories unfold in small towns, bustling cities, and even across time. No matter the setting, emotions always take center stage.</p>
+          <code>f3</code>
+          <li>Pride and Prejudice</li>
+          <li>The Vacation</li>
+        </section>
+        <br>
+        <br>
+        <section class="main-section" id="Fantasy">
+          <header id="Fantasy">Fantasy</header>
+          <p>Fantasy opens the door to magical worlds and epic quests. From enchanted forests to ancient kingdoms, these books create realms beyond imagination. They transport readers far from reality while reflecting real emotions.</p>
+          <p>Beyond magic and mythical creatures, fantasy explores destiny, identity, and heroism. Whether it’s a chosen one’s journey or a battle between good and evil, these stories inspire. They prove that the impossible can feel real.</p>
+          <code>f4</code>
+          <li>Fourth Wing</li>
+          <li>ACOTAR</li>
+        </section>
+        <br>
+        <br>
+        <section class="main-section" id="Memoir">
+          <header id="Memoir">Memoir</header>
+          <p>Memoirs turn personal experiences into powerful stories. They offer raw honesty, taking readers through struggles, triumphs, and moments of transformation. Each one is a unique glimpse into a real-life journey.</p>
+          <p>What makes memoirs special is their emotional depth. They connect readers through shared fears, hopes, and resilience. At their core, they remind us that every life holds meaning.</p>
+          <code>f5</code>
+          <li>I'm Glad my Mom is Dead</li>
+          <li>Becoming</li>
+        </section>
+      </main>
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+header {
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  body {
+    background-color: lightgray;
+  }
+
+  .main-section {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+** end of undefined **
+

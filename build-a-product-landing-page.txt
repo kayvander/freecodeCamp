@@ -1,0 +1,64 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en">
+  <head id="header">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="header">
+      <img id="header-img" src="https://poppyandpeonies.com/cdn/shop/files/poppy_peonies_logo_large_c66441c4-ac3c-43cb-a9f5-86e7e57cce16_400x@2x.png?v=1613691347" alt="poppy and peonies">
+      <nav id="nav-bar">
+        <h4><a class="nav-link" href="#products">Products</a></h4>
+        <h4><a class="nav-link" href="#trending">Trending</a></h4>
+        <h4><a class="nav-link" href="#contactus">Contact Us</a></h4>
+      </nav>
+    </header>
+        <h1 id="products">Products</h1>
+          <img src="https://poppyandpeonies.com/cdn/shop/files/PoppyPeonies_Ecomm_GoGetter_HeritageGreen_FV_360x.jpg?v=1737219664">
+          <p id="products">Green Tote</p>
+          <img src="https://poppyandpeonies.com/cdn/shop/files/cognac_39b0cc94-8d3a-4225-b852-9ac73f789ce9_360x.jpg?v=1739384130">
+          <p id="products">Brown Cross Body Bag</p>
+          <img src="https://poppyandpeonies.com/cdn/shop/products/BlackSidekick_360x.jpg?v=1674464851">
+          <p id="products">Black Belt Bag</p>  
+        <h1 id="trending">Trending</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/wvLg3tG5aCo?si=jzV2LX72iLIasIOu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h1 id="contactus">Contact Us</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label>Name <input></input></label>
+          <br>
+          <label>Email <input name="email" id="email" placeholder="your.email@gmail.com" type="email"></input></label>
+          <br>
+          <button><input type="submit" id="submit" action="https://www.freecodecamp.com/email-submit">Submit</input></button>
+          </form>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+.products {
+  display: flex;
+}
+body {
+  font-family: arial;
+  padding: 100px 0 0 0;
+
+}
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+** end of undefined **
+
