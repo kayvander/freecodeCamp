@@ -1,0 +1,56 @@
+** start of undefined **
+
+</doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    </head>
+    <body>
+      <nav id="navbar">
+        <h4><a class="navlink" href="#welcome-section">Welcome</a></h4>
+        <h4><a class="navlink" href="#projects">Projects</a></h4>
+      </nav>
+      <section id="welcome-section">
+        <h1>Mikayla's Portfolio</h1>
+        <h4>Web Developer</h4>
+        </section>
+      <section id="projects">
+        <img class="project-tile" src="https://www.telegraph.co.uk/content/dam/fashion/2020/11/26/GettyImages-3168799_trans_NvBQzQNjv4BqTh3H5BemKyhXFKdcxJGxV7MLPxeV-tnAiiupP68vNLw.jpg?imwidth=960">
+        <h3><a id="profile-link" href="https://kayvander.github.io/freecodeCamp/" target="_blank">Words</a></h3>
+        <img class="project-tile" href="">
+        <h3><a id="profile-link" href="https://kayvander.github.io/freecodeCamp/" target="_blank">Words</a></h3>
+      </section>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+nav {
+  display: grid;
+  position: fixed;
+}
+
+body {
+  font-family: arial;
+  top: 50px;
+}
+.project-tile {
+  display: grid;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+
+** end of undefined **
+
